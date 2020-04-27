@@ -8,7 +8,8 @@ import {
 
 import Home from './components/Home';
 import Contacts from "./components/contacts";
-import Hobbies from "./components/Hobbies";
+import Games from "./components/Games"
+import Apps from "./components/Apps";
 
 import './App.css';
 
@@ -23,7 +24,11 @@ function App() {
           </div>
 
           <div class="col-sm-2 col-lg-2">
-            <Link to="/Hobbies" className="HobbiesButtonStyle">Hobbies</Link>
+            <Link to="/Apps" className="HobbiesButtonStyle">Apps</Link>
+          </div>
+
+          <div class="col-sm-2 col-lg-2">
+            <Link to="/Games" className="HobbiesButtonStyle">Games</Link>
           </div>
 
           <div class="col-sm-2 col-lg-2">
@@ -39,8 +44,11 @@ function App() {
             <Route exact path="/">
               <Home />
             </Route>
-            <Route path="/hobbies">
-              <Hobbies />
+            <Route path="/apps">
+              <Apps />
+            </Route>
+            <Route path="/games">
+              <Games />
             </Route>
             <Route path="/contacts">
               <Contacts />
