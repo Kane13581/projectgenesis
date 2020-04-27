@@ -11,6 +11,8 @@ import Contacts from "./components/contacts";
 import Games from "./components/Games"
 import Apps from "./components/Apps";
 
+
+import "./components/HomeComponents/HomeCSS.css";
 import './App.css';
 
 function App() {
@@ -20,7 +22,9 @@ function App() {
         <div class="row ">
 
           <div class="col-sm-6 col-lg-6">
-            <Link to="/" className="HomeButtonStyle" >Home</Link>
+            <Link to="/" className="HomeButtonStyle" >
+              <img className="ITElement1Img" src={require('./assets/Home/geometricpattern.jpg')} alt="location.jpg" />
+            </Link>
           </div>
 
           <div class="col-sm-2 col-lg-2">
