@@ -1,7 +1,9 @@
 .container-fluid {
   width: 100%;
   height: 4vh;
-  background-color: grey;
+  background-image: url(./assets/Home/leathermod.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 a:link {
@@ -14,5 +16,5 @@ a {
 }
 
 a:visited {
-    color: black;
+    color: white;
 }
