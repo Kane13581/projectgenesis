@@ -1,0 +1,180 @@
+.AboutButtonStyle {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+    text-align: center;
+    animation-name: HomeStyleAnim;
+    animation-duration: 6s;
+  }
+  
+  .AboutPageStyle {
+    position: relative;
+    width: 100vw;
+  }
+  
+  
+  .AboutTopStyle {
+    text-align: center;
+    width: 100vw;
+    background-image: url(./../../Assets//About/matrix.jpg);
+    background-size: cover;
+    height: 13vh;
+    border-top: 15px black solid;
+    border-bottom: 15px black solid;
+  }
+  
+  .AboutH1Style {
+  font-size: 3vw;
+  color: #dfdfdf;
+  
+  }
+  
+  .AboutContainer {
+    background-image: url(./../../Assets//About/matrix.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .AboutPopUp1 {
+    display: flex;
+    border: black 10px solid;
+    justify-content: center;
+  
+  }
+  
+  .AboutH2Text {
+    font-size: 5vh;
+  }
+
+  .AboutPText {
+    margin-top: 5vh;
+    font-size: 3vh;
+    
+  }
+
+  .ModalButtonStyle {
+    color: #000000;
+    font-size: 2vw;
+    background-image: url(./../../Assets/About/paper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 15vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 2vw 2vw 0;
+  }
+  
+  .AboutPopUpStyle1 {
+    color: #000000;
+    font-size: 2vw;
+    background-image: url(./../../Assets/About/simple.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30vw;
+    -webkit-animation: tilt-in-top-1 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: tilt-in-top-1 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+
+@-webkit-keyframes tilt-in-top-1 {
+  0% {
+    -webkit-transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+            transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0deg) translateY(0) skewY(0deg);
+            transform: rotateY(0deg) translateY(0) skewY(0deg);
+    opacity: 1;
+  }
+}
+@keyframes tilt-in-top-1 {
+  0% {
+    -webkit-transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+            transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0deg) translateY(0) skewY(0deg);
+            transform: rotateY(0deg) translateY(0) skewY(0deg);
+    opacity: 1;
+  }
+}
+
+  
+  .AboutPopUpStyle2 {
+    color: #000000;
+    font-size: 2vw;
+    background-image: url(./../../Assets/About/simple.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30vw;
+  
+  }
+  
+  .HtmlStyle {
+    display: flex;
+    justify-content: center;
+      -webkit-animation: slide-in-fwd-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+              animation: slide-in-fwd-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  
+ @-webkit-keyframes slide-in-fwd-center {
+  0% {
+    -webkit-transform: translateZ(-1400px);
+            transform: translateZ(-1400px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-fwd-center {
+  0% {
+    -webkit-transform: translateZ(-1400px);
+            transform: translateZ(-1400px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+
+  .AboutComponentButton {
+    background-image: url(./../../Assets/About/simple.jpg);
+    background-size: cover;
+    width: 24vw;
+    height: 3vh;
+    margin: 23px 23px 23px; 
+    border: 2px black solid;
+  }
+  
+  .AboutComponentsH1 {
+    font-size: 1vw;
+    color: #dfdfdf;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  
+  :any-link:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  :any-link:active {
+    color: #dfdfdf;
+    text-decoration: none;
+  }
+  
+  :any-link:visited {
+    color: #dfdfdf;
+    text-decoration: none;
+  }

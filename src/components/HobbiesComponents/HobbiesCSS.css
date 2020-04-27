@@ -1,0 +1,501 @@
+
+.HobbiesButtonStyle {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+    text-align: center;
+    animation-name: HomeStyleAnim;
+    animation-duration: 6s;
+  }
+  
+  .HobbieMidBorder {
+    position: relative;
+    background-color: #353738;
+    height: 7vh;
+  }
+  
+  .HobbieSelect {
+    padding-top: 5px;
+    display: flex;
+    font-size: 2vw;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .HobbieBackground {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url(./../../Assets/Hobbies/full.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .GlowAnimation {
+    position: absolute;
+    width: 17vw;
+    bottom: 0;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .9s ease-in-out;
+    transition: .9s ease-in-out;
+    -webkit-transition-duration: 6s;
+    transition-duration: 6s;
+  }
+  
+  .GlowAnimation:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+  
+  .HobbieBackImgStyle {
+    max-width: 100%;
+    width: 100vw;
+  }
+  
+  
+  
+  
+  .HobbieNav {
+    display: flex;
+    width: 100%;
+    height: 260px;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    background-color: #353738;
+    padding-top: 30px;
+  }
+  
+  .SportsNav {
+    font-size: 40px;
+    background-image: url(./../../Assets/Hobbies/box2.jpg);
+    background-size: cover;
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    
+  }
+  
+  .ItNav {
+    font-size: 40px;
+    background-image: url(./../../Assets/Hobbies/IT.jpeg);
+    background-size: cover;
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    
+  }
+  
+  .MoviesNav {
+    font-size: 40px;
+    background-image: url(./../../Assets/Hobbies/moviefilm.jpg);
+    background-size: cover;
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    
+  }
+  
+  
+  .HobbieLinkStyle {
+    color: #ffffff;
+  
+  }
+  
+  .SportsPageStyle {
+    position: relative;
+    height: 70vh;
+  }
+  
+  
+  .SportsParStyle {
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #dfdfdf;
+    text-align: center;
+    background-image: url(./../../Assets/Sports/blackfade.jpg);
+    background-size: cover;
+  }
+  
+  .SportInfoBackground {
+  
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .9s ease-in-out;
+    transition: .9s ease-in-out;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    position: relative;
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+  }
+  
+  
+  .SportInfoBackground:hover {
+    -webkit-filter: grayscale(0);
+      filter: grayscale(0);
+  }
+  
+  .BoxStoryPar {
+    font-size: 1vw;
+    background-image: url(./../../Assets/Sports/blackfade.jpg);
+    color: #dfdfdf;
+    padding: 10px 10px 10px;
+    margin-bottom: 0px;
+  }
+  
+  .SportsStory {
+    display: flex;
+    width: 100%;
+  }
+  
+  .FootballStoryPar {
+    font-size: 1vw;
+    background-image: url(./../../Assets/Sports/blackfade.jpg);
+    color: #dfdfdf;
+    padding: 10px 10px 10px;
+    margin-top: 10px;
+  }
+  
+  .SportsPageStyle {
+    background-color: grey;
+  
+  }
+  
+  .ITPageStyle {
+   position: relative;
+  }
+  
+  .ITPageStyle:hover {
+    -webkit-transition: grayscale(0);
+    transition: grayscale(0);
+  }
+  
+  .ITMidBorder {
+    background-color: #353738;
+    height: 5vh;
+  }
+  
+  .ITFloatingDiv {
+    display: flex;
+    justify-content: center;
+    padding-top: 160px;
+    background-image: url(./../../Assets/IT/chipset.jpg);
+    background-size: cover;
+    height: 75vh;
+  }
+  
+  
+  
+  
+  
+  .ITElement1Img {
+    max-width: 100%;
+      max-height: 100%;
+  }
+  
+  .element1 {
+    display: inline-block;
+    height: 21vh;
+    width: auto;
+    font-size: 1px;
+    padding: 1px;
+    color: white;
+    margin-right: 100px;
+    margin-left: 5px;
+    animation: skew 3s infinite;
+    transform: skew(20deg);
+    animation-direction: alternate;
+    
+  }
+  
+  .element2 {
+    display: inline-block;
+    height: 21vh;
+    width: auto;
+    font-size: 1px;
+    padding: 1px;
+    color: white;
+    margin-right: 100px;
+    margin-left: 100px;
+    animation: skew 3s infinite;
+    transform: skew(20deg);
+    animation-direction: alternate;
+   
+  }
+  
+  .element3 {
+    display: inline-block;
+    height: 21vh;
+    width: auto;
+    font-size: 1px;
+    padding: 1px;
+    color: white;
+    margin-right: 5px;
+    margin-left: 100px;
+    animation: skew 3s infinite;
+    transform: skew(20deg);
+    animation-direction: alternate;
+    
+  }
+  
+  @keyframes skew {
+    0% {
+      transform: skew(20deg, 20deg);
+    }
+    100% {
+      transform: skew(-20deg, -20deg);
+    }
+  }
+  
+
+  .ITBorderImg:hover {
+    -webkit-filter: grayscale(0);
+      filter: grayscale(0);
+  }
+  
+  .MoviesPageStyle {
+    position: relative;
+  height: 80vh;
+  background-color:#353738;
+  }
+  
+  .MovieMidContainer {
+    display: flex;
+    width: 100vw;
+    height: 30vh;
+    box-sizing: border-box;
+  
+  }
+  
+  .MovieTopMidImg {
+    position: absolute;
+  width: 100vw;
+  height: 5vh;
+  left: 0;
+  }
+  
+  .MovieLowMidImg {
+    position: absolute;
+  width: 100vw;
+  height: 5vh;
+  left: 0;
+  margin-top: 24.3vh;
+  }
+  
+  .MovieMidMidImg {
+    margin-top: 5vh;
+    width: 100vw;
+    height: 19.6vh;
+    position: absolute;
+    background-color: black;
+    z-index: 1;
+  }
+  
+  .MovieMidImage {
+   
+  width: 100vw;
+  height: 40vh;
+  position: absolute;
+  top: 0;
+  }
+  
+  .MovieMidElem1 {
+    margin-top: 6vh;
+    width: 8.5vw;
+    height: 17.6vh;
+    z-index: 2;
+  }
+  
+  .Elem1Img {
+    width: 8.5vw;
+    height: 17.6vh;
+  }
+  
+  .MovieMidElem2 {
+    margin-left: 25px;
+    margin-top: 6vh;
+    width: 19vw;
+    height: 17.6vh;
+    z-index: 2;
+  } 
+  
+  .MovieMidElem3 {
+    margin-left: 25px;
+    margin-top: 6vh;
+    width: 19vw;
+    height: 17.6vh;
+    z-index: 2;
+  } 
+  
+  
+  .Elem3Img {
+    width: 19vw;
+    height: 17.6vh;
+  }
+  
+  .MovieMidElem4 {
+    margin-left: 25px;
+    margin-top: 6vh;
+    width: 19vw;
+    height: 17.6vh;
+    z-index: 2;
+  } 
+  
+  .MovieMidElem5 {
+    margin-left: 25px;
+    margin-top: 6vh;
+    width: 19vw;
+    height: 17.6vh;
+    z-index: 2;
+  } 
+  
+  
+  .MovieMidElem6 {
+    margin-top: 6vh;
+    margin-left: 25px;
+    width: 8.5vw;
+    height: 17.6vh;
+    z-index: 2;
+  }
+  
+  .MovieCropContainer {
+    margin-top: 29.4vh;
+    position: absolute;
+    width: 100vw;
+    height: 50.5vh;
+  }
+  
+  .MovieCropImg1 {
+    margin-top: 5vh;
+    margin-left: 1.5vw;
+    width: 30vw;
+    height: 40vh;
+    z-index: 2;  
+    -webkit-clip-path: polygon(60% 19%, 41% 48%, 82% 79%, 86% 100%, 0 100%, 0 0);
+    clip-path: polygon(60% 19%, 41% 48%, 82% 79%, 86% 100%, 0 100%, 0 0);  
+  -webkit-transform: rotate(5deg);
+  transform: rotate(5deg);
+  }
+  
+  .MovieCropImg2 {
+    margin-top: 5vh;
+    width: 30vw;
+    height: 40vh;
+    z-index: 2;  
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
+  
+  .MovieCropImg3 {
+    margin-left: 1.5vw;
+    width: 30vw;
+    height: 40vh;
+    z-index: 2;  
+    -webkit-clip-path: polygon(50% 21%, 100% 50%, 50% 74%, 0% 50%);
+    clip-path: polygon(50% 21%, 100% 50%, 50% 74%, 0% 50%);
+  }
+  
+  .MovieCropImg4 {
+    position: absolute;
+    left: 0;
+    margin-left: 7vw;
+    width: 30vw;
+    height: 40vh;
+    z-index: 2;  
+    -webkit-clip-path: polygon(6% 14%, 0 0, 80% 5%, 73% 85%, 30% 59%, 49% 33%);
+    clip-path: polygon(6% 14%, 0 0, 80% 5%, 73% 85%, 30% 59%, 49% 33%);
+  }
+  
+  .MovieCropImg5 {
+    position: absolute;
+    left: 0;
+    margin-left: 21vw;
+    width: 30vw;
+    height: 40vh;
+    z-index: 2;  
+    -webkit-clip-path: polygon(61% 2%, 96% 3%, 77% 14%, 36% 31%, 34% 25%, 36% 3%);
+    clip-path: polygon(61% 2%, 96% 3%, 77% 14%, 36% 31%, 34% 25%, 36% 3%);  
+  }
+  
+  .MovieCropImg6 {
+    position: absolute;
+    right: 0;
+    width: 30vw;
+    height: 40vh;
+    z-index: 2;  
+    -webkit-clip-path: polygon(22% 0, 100% 0, 100% 100%, 20% 100%, 38% 80%, 82% 57%, 38% 27%);
+    clip-path: polygon(22% 0, 100% 0, 100% 100%, 20% 100%, 38% 80%, 82% 57%, 38% 27%);  
+  }
+  
+  .MovieCropImg7 {
+    position: absolute;
+    right: 0;
+    margin-right: 20vw;
+    width: 30vw;
+    height: 40vh;
+    z-index: 2;  
+  
+  
+    -webkit-clip-path: polygon(50% 1%, 88% 4%, 96% 20%, 78% 33%, 65% 43%, 42% 52%, 43% 39%, 27% 26%, 0 14%, 13% 3%);
+    clip-path: polygon(50% 1%, 88% 4%, 96% 20%, 78% 33%, 65% 43%, 42% 52%, 43% 39%, 27% 26%, 0 14%, 13% 3%);
+      
+  }
+  
+  .MovieCropImg8 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 30vw;
+    height: 40vh;
+    z-index: 2;  
+    margin-right: 17vw;  
+    -webkit-clip-path: polygon(32% 36%, 60% 48%, 85% 60%, 73% 76%, 93% 77%, 87% 96%, 25% 99%, 16% 75%, 28% 69%, 35% 60%);
+    clip-path: polygon(32% 36%, 60% 48%, 85% 60%, 73% 76%, 93% 77%, 87% 96%, 25% 99%, 16% 75%, 28% 69%, 35% 60%); 
+  }
+  
+  .MovieCropImg9 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 34vw;
+    height: 40vh;
+    z-index: 2;  
+    margin-right: 40vw;  
+    -webkit-clip-path: polygon(60% 90%, 89% 73%, 93% 84%, 90% 93%, 100% 100%, 0 100%, 1% 95%, 4% 93%, 2% 74%, 11% 62%);
+    clip-path: polygon(60% 90%, 89% 73%, 93% 84%, 90% 93%, 100% 100%, 0 100%, 1% 95%, 4% 93%, 2% 74%, 11% 62%);  
+  }
+  
+  .MovieCropImg10 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 34vw;
+    height: 40vh;
+    z-index: 2;  
+    
+   
+  
+  
+  
+  
+  
+  
+  
+    -webkit-clip-path: polygon(51% 76%, 92% 76%, 95% 98%, 43% 99%, 45% 86%);
+    clip-path: polygon(51% 76%, 92% 76%, 95% 98%, 43% 99%, 45% 86%);
+    
+    
+  }
+  
