@@ -7,9 +7,9 @@ import {
 } from "react-router-dom";
 
 
-import IT from './IT';
-import Movies from "./Movies";
-import Sports from "./Sports";
+
+import Calculator from "./AppsComponents/Calculator";
+import Calendar from "./AppsComponents/Calendar";
 
 
 
@@ -23,17 +23,15 @@ function Hobbies() {
 	return (
 		<div>
 
-			<div className="HobbieNav">
+			<div className="AppsNav">
 
-				<div className="SportsNav">
-					<Link className="HobbieLinkStyle" to={`${url}/Sports`}>Sports</Link>
+				<div className="CalculatorNav">
+					<Link className="HobbieLinkStyle" to={`${url}/Calculator`}>Calculator</Link>
 				</div>
-				<div className="ItNav">
-					<Link className="HobbieLinkStyle" to={`${url}/IT`}>IT</Link>
+				<div className="CalendarNav">
+					<Link className="HobbieLinkStyle" to={`${url}/Calendar`}>Calendar</Link>
 				</div>
-				<div className="MoviesNav">
-					<Link className="HobbieLinkStyle" to={`${url}/Movies`}>Movies</Link>
-				</div>
+
 
 			</div>
 
@@ -43,7 +41,7 @@ function Hobbies() {
 					<Route exact path={path}>
 
 						<div className="HobbieMidBorder">
-							<h3 className="HobbieSelect">If you like to see more information about a specific hobby, please select it.</h3>
+							<h3 className="HobbieSelect">If you like to use one of the apps above, please select any.</h3>
 						</div>
 						<div className="HobbieBackground">
 							{/*<img className="GlowAnimation" src={require('./../Assets/Hobbies/smoke1.png')} alt="location.jpg" />*/}
@@ -51,15 +49,13 @@ function Hobbies() {
 
 
 					</Route>
-					<Route path="/Hobbies/Sports">
-						<Sports />
+					<Route path="/Apps/Calculator">
+						<Calculator />
 					</Route>
-					<Route path="/Hobbies/IT">
-						<IT />
+					<Route path="/Apps/Calendar">
+						<Calendar />
 					</Route>
-					<Route path="/Hobbies/Movies">
-						<Movies />
-					</Route>
+
 				</Switch>
 			</div>
 

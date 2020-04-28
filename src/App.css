@@ -7,7 +7,6 @@
 }
 
 a:link {
-  color: black;
   font-size: 1.2vw;
 }
 
@@ -15,6 +14,73 @@ a {
   color: white;
 }
 
-a:visited {
-    color: white;
+a:hover {
+  text-decoration: none;
+  color: white;
+  animation-name: buttonspark;
+  animation-duration: 15s;
+}
+
+@keyframes buttonspark {
+  0% {
+    border: 1px white solid;
+    border-radius: 30%;
+    background-color: none;
+  }
+  10% {
+    border: 1px white solid;
+    border-radius: 30%;
+    background-color: rgb(92, 92, 92);
+  }
+  20% {
+    border: 1px white solid;
+    border-radius: 30%;
+    background-color: none;
+  }
+  30% {
+    border: 1px white solid;
+    border-radius: 30%;
+    background-color: rgb(92, 92, 92);
+  }
+  40% {
+    border: 1px white solid;
+    border-radius: 30%;
+    background-color: none;
+  }
+  50% {
+    border: 1px white solid;
+    border-radius: 30%;
+    background-color: rgb(92, 92, 92);
+  }
+  60% {
+border: 1px white solid;
+    border-radius: 30%;
+    background-color: none;
+  }
+  70% {
+    border: 1px white solid;
+    border-radius: 30%;
+    background-color: rgb(92, 92, 92);
+   }
+  80% {
+    border: 1px white solid;
+    border-radius: 30%;
+    background-color: none;
+  }
+  90% {
+    border: 1px white solid;
+    border-radius: 30%;
+    background-color: rgb(92, 92, 92);
+  }
+  100% {
+    border: 1px white solid;
+    border-radius: 30%;
+    background-color: none;
+  }
+}
+
+a.HomeButtonStyle:hover {
+  border: 3px red solid;
+  border-radius: 0%;
+
 }

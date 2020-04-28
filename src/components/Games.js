@@ -1,18 +1,10 @@
 import React from "react";
-import {
-	Switch,
-	Route,
-	Link,
-	useRouteMatch
-} from "react-router-dom";
 
 
 
 
 function Games() {
 
-
-	let { path, url } = useRouteMatch();
 
 	return (
 		<div>
