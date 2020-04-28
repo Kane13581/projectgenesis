@@ -14,3 +14,51 @@ a.HobbieLinkStyle {
 color: #000;
 }
 
+.CalculatorPageStyle {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CalculatorApp {
+  margin-top: 10vh;
+  border: 1px red solid;
+  width: 80vw;
+  height: 70vh; 
+  display: flex;
+}
+
+.CalculatorList {
+  width: 20vw;
+  border: green 1px solid;
+  height: 70vh;
+}
+
+.CalculatorRoot {
+  width: 20vw;
+  border: 1px blue solid;
+}
+
+.ListStyle {
+  background-color: grey;
+}
+
+.CalculatorPrice {
+  width: 20vw;
+  border: 1px solid yellow;
+}
+
+.PriceStyle {
+  background-color: grey;
+}
+
+.CalculatorTotal {
+  width: 20vw;
+  border: 1px solid purple;
+}
+
+.TotalStyle {
+  background-color: grey;
+}
