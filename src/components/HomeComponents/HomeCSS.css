@@ -6,3 +6,31 @@
   background-color: black;
   background-image: linear-gradient(#353738, black);
 }
+
+.HomePageSyle {
+	-webkit-animation: color-change-3x 4s linear infinite alternate both;
+	        animation: color-change-3x 4s linear infinite alternate both;
+}
+
+@-webkit-keyframes color-change-3x {
+  0% {
+    background-image: linear-gradient(#353738, black);
+  }
+  50% {
+    background-image: linear-gradient(#616161, black);
+  }
+  100% {
+    background-image: linear-gradient(#b3b3b3, black);
+  }
+}
+@keyframes color-change-3x {
+  0% {
+    background-image: linear-gradient(#353738, black);
+  }
+  50% {
+    background-image: linear-gradient(#616161, black);
+  }
+  100% {
+    background-image: linear-gradient(#b3b3b3, black);
+  }
+}

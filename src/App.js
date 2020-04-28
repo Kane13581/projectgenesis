@@ -23,7 +23,7 @@ function App() {
 
           <div class="col-sm-6 col-lg-6">
             <Link to="/" className="HomeButtonStyle" >
-              <img className="ITElement1Img" src={require('./assets/Home/chipsetglow.jpg')} alt="location.jpg" />
+              <img className="ITElement1Img" src={require('./assets/Home/TriangleDot.png')} alt="location.jpg" />
             </Link>
           </div>
 
