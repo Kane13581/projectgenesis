@@ -1,6 +1,12 @@
 import React from "react";
 import Counters from './CalculatorComponents/counters';
 import './CalculatorComponents/calculator.css';
+import ListItems from './CalculatorComponents/ListItems';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faTrash } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faTrash);
+
 
 class Calculator extends React.Component {
 
@@ -10,11 +16,28 @@ class Calculator extends React.Component {
 			items: [],
 			currentItem: {
 				text: '',
-				key: '',
+				key: ''
 			}
 		}
+		this.addItem = this.addItem.bind(this);
+		this.handleInput = this.handleInput.bind(this);
+		this.deleteItem = this.deleteItem.bind(this);
+		this.setUpdate = this.setUpdate.bind(this);
 	}
-
+	addItem(e) {
+		e.preventDefault();
+		const newItem = this.state.currentItem;
+		if (newItem.text !== "") {
+			const items = [...this.state.items, newItem];
+			this.setState({
+				items: items,
+				currentItem: {
+					text: '',
+					key: ''
+				}
+			})
+		}
+	}
 	handleInput(e) {
 		this.setState({
 			currentItem: {
@@ -23,13 +46,29 @@ class Calculator extends React.Component {
 			}
 		})
 	}
+	deleteItem(key) {
+		const filteredItems = this.state.items.filter(item =>
+			item.key !== key);
+		this.setState({
+			items: filteredItems
+		})
 
-	//addItem(e) {
-	//	//e.preventDefault();
-	//	const newItem = this.state.currentItem;
-	//	console.log(newItem);
-	//}
+	}
+	setUpdate(text, key) {
+		console.log("items:" + this.state.items);
+		const items = this.state.items;
+		items.forEach(item => {
+			if (item.key === key) {
+				console.log(item.key + "    " + key)
+				item.text = text;
+			}
+		})
+		this.setState({
+			items: items
+		})
 
+
+	}
 	render() {
 		return (
 			<div className="CalculatorPageStyle" >
@@ -40,11 +79,13 @@ class Calculator extends React.Component {
 							<div className="ListItems">
 								<header>
 									<form id="to-do-form" onSubmit={this.addItem}>
-										<input className="CalcInput" type="text" placeholder="Add Item"
-											value={this.state.currentItem.text}
-											onChange={this.handleInput} />
-										<button className="CalcButton" type="submit" >Add</button>
+										<input className="CalcInput" type="text" placeholder="Enter task" value={this.state.currentItem.text} onChange={this.handleInput}></input>
+										<button className="CalcButton" type="submit">Add</button>
 									</form>
+									<p>{this.state.items.text}</p>
+									<div className="ListItemContainer">
+										<ListItems items={this.state.items} deleteItem={this.deleteItem} setUpdate={this.setUpdate} />
+									</div>
 								</header>
 							</div>
 						</div>
@@ -70,7 +111,6 @@ class Calculator extends React.Component {
 		);
 	}
 }
-
 
 
 export default Calculator;
