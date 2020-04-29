@@ -1,0 +1,19 @@
+.CalcInput {
+	width: 16vw;
+	background-color: lightgray;
+	border: none;
+	margin-left: 1vw;
+	border-radius: 5px;
+	padding: 0 20px;
+	font-weight: bold;
+}
+
+.CalcButton {
+	width: 3vw;
+	height: 3vh;
+	margin-left: 0.3vw;
+	background-color: rgb(202, 156, 24);
+	border: none;
+	border-radius: 5px;
+	font-weight: bolder;
+}

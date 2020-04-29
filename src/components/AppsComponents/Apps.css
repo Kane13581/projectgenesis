@@ -25,13 +25,13 @@ color: #000;
 .CalculatorApp {
   margin-top: 10vh;
   border: 1px red solid;
-  width: 80vw;
+  width: 90vw;
   height: 70vh; 
   display: flex;
 }
 
 .CalculatorList {
-  width: 20vw;
+  width: 30vw;
   border: green 1px solid;
   height: 70vh;
 }
@@ -43,6 +43,12 @@ color: #000;
 
 .ListStyle {
   background-color: grey;
+  height: 10vh;
+}
+
+.QuantityStyle {
+  background-color: grey;
+  height: 10vh;
 }
 
 .CalculatorPrice {
@@ -52,6 +58,7 @@ color: #000;
 
 .PriceStyle {
   background-color: grey;
+  height: 10vh;
 }
 
 .CalculatorTotal {
@@ -61,4 +68,10 @@ color: #000;
 
 .TotalStyle {
   background-color: grey;
+  height: 10vh;
+}
+
+.CalcTextStyle {
+  margin-left: 1vw;
+  font-weight: bold;
 }

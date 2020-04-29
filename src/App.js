@@ -18,24 +18,24 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <div class="container-fluid">
-        <div class="row ">
+      <div className="container-fluid">
+        <div className="row ">
 
-          <div class="col-sm-6 col-lg-6">
+          <div className="col-sm-6 col-lg-6">
             <Link to="/" className="HomeButtonStyle" >
               <img className="ITElement1Img" src={require('./assets/Home/TriangleDot.png')} alt="location.jpg" />
             </Link>
           </div>
 
-          <div class="col-sm-2 col-lg-2">
+          <div className="col-sm-2 col-lg-2">
             <Link to="/Apps" className="HobbiesButtonStyle">Apps</Link>
           </div>
 
-          <div class="col-sm-2 col-lg-2">
+          <div className="col-sm-2 col-lg-2">
             <Link to="/Games" className="HobbiesButtonStyle">Games</Link>
           </div>
 
-          <div class="col-sm-2 col-lg-2">
+          <div className="col-sm-2 col-lg-2">
             <Link to="/contacts" className="ContactsButtonStyle">Contact</Link>
           </div>
         </div>
