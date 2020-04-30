@@ -79,7 +79,7 @@ class Calculator extends React.Component {
 							<div className="ListItems">
 								<header>
 									<form id="to-do-form" onSubmit={this.addItem}>
-										<input className="CalcInput" type="text" placeholder="Enter task" value={this.state.currentItem.text} onChange={this.handleInput}></input>
+										<input className="CalcInput" type="text" placeholder="Add Item" value={this.state.currentItem.text} onChange={this.handleInput}></input>
 										<button className="CalcButton" type="submit">Add</button>
 									</form>
 									<p>{this.state.items.text}</p>
@@ -94,7 +94,6 @@ class Calculator extends React.Component {
 						<div className="QuantityStyle">
 							<h1 className="CalcTextStyle">Quantity:</h1>
 						</div>
-						{/*<Counters />*/}
 					</div>
 					<div className="CalculatorPrice">
 						<div className="PriceStyle">

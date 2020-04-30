@@ -1,3 +1,75 @@
+.CalculatorPageStyle {
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .CalculatorApp {
+	margin-top: 10vh;
+	border: 1px red solid;
+	width: 95vw;
+	height: 70vh; 
+	display: flex;
+	border-radius: 10px;
+	background-color: rgb(212, 147, 62);
+  }
+
+  .CalculatorList {
+	width: 30vw;
+	border: green 1px solid;
+	height: 70vh;
+  }
+  
+  .CalculatorRoot {
+	width: 20vw;
+	border: 1px blue solid;
+  }
+  
+  .ListStyle {
+	background-color: grey;
+	height: 10vh;
+	margin-left: 0.3vw;
+	margin-top: 0.3vw;
+	border-top-left-radius: 10px;
+  }
+  
+  .QuantityStyle {
+	background-color: grey;
+	height: 10vh;
+	margin-top: 0.3vw;
+	
+  }
+  
+  .CalculatorPrice {
+	width: 20vw;
+	border: 1px solid yellow;
+  }
+  
+  .PriceStyle {
+	margin-top: 0.3vw;
+	background-color: grey;
+	height: 10vh;
+  }
+  
+  .CalculatorTotal {
+	width: 20vw;
+	border: 1px solid purple;
+  }
+  
+  .TotalStyle {
+	background-color: grey;
+	height: 10vh;
+	margin-top: 0.3vw;
+	border-top-right-radius: 10px;
+  }
+  
+  .CalcTextStyle {
+	margin-left: 1vw;
+	font-weight: bold;
+  }
+
 .CalcInput {
 	width: 16vw;
 	background-color: lightgray;
@@ -30,9 +102,10 @@
 .CounterStyle {
 	width: 15vw;
 	left: 0;
-	margin-top: 1.2vw;
+	margin-top: 1vw;
+	margin-left: 14vw;
 }
 
-/*.CounterSpace {
-	
-}*/
+.TrashSpace {
+	margin-top: 1vw;
+}
