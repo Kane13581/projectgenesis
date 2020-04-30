@@ -1,5 +1,5 @@
 import React from "react";
-import Counters from './CalculatorComponents/counters';
+//import Counters from './CalculatorComponents/counters';
 import './CalculatorComponents/calculator.css';
 import ListItems from './CalculatorComponents/ListItems';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -94,7 +94,7 @@ class Calculator extends React.Component {
 						<div className="QuantityStyle">
 							<h1 className="CalcTextStyle">Quantity:</h1>
 						</div>
-						<Counters />
+						{/*<Counters />*/}
 					</div>
 					<div className="CalculatorPrice">
 						<div className="PriceStyle">

@@ -2,6 +2,7 @@ import React from 'react';
 import './ListItems.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import FlipMove from 'react-flip-move';
+import Counters from './counters';
 
 function ListItems(props) {
 	const items = props.items;
@@ -11,13 +12,19 @@ function ListItems(props) {
 				<input type="text" id={item.key} value={item.text} onChange={(e) => {
 					props.setUpdate(e.target.value, item.key)
 				}} />
+			</p>
+			<div className="CounterSpace">
+				<Counters />
+			</div>
+			<div className="TrashSpace">
 				<span>
 
 					<FontAwesomeIcon className="faicons" onClick={() => {
 						props.deleteItem(item.key)
 					}} icon="trash" />
 				</span>
-			</p>
+			</div>
+
 
 		</div>
 	})
