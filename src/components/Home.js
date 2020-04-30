@@ -3,7 +3,7 @@ import React from "react";
 function Home() {
     return (
         <div className="HomePageSyle">
-            <div className="HomeLoading">
+            {/* <div className="HomeLoading">
                 <div className="HomeLoading1">
                     <img
                         className="HomeLoadingStyle1"
@@ -17,6 +17,9 @@ function Home() {
                         alt="Eye2.jpg" />
                 </div>
 
+            </div> */}
+            <div className ="h1">
+            <h1>Dare to dream</h1>
             </div>
             <div className="Carousel">
 
@@ -35,41 +38,41 @@ function Home() {
                         <div class="item active">
                             <img
                                 className="HomeCarFirstImg"
-                                src={require('./../assets/Home/chipsetglow.jpg')}
+                                src={require('./../assets/Home/1.jpg')}
                                 alt="location.jpg" />
                         </div>
 
                         <div class="item">
                             <img
                                 className="HomeCarFirstImg"
-                                src={require('./../assets/Home/CogWheel.png')}
+                                src={require('./../assets/Home/2.jpg')}
                                 alt="location.jpg" />
                         </div>
 
                         <div class="item">
                             <img
                                 className="HomeCarFirstImg"
-                                src={require('./../assets/Home/leathermod.jpg')}
+                                src={require('./../assets/Home/3.jpg')}
                                 alt="location.jpg" />
                         </div>
 
                         <div class="item">
                             <img
                                 className="HomeCarFirstImg"
-                                src={require('./../assets/Home/leathermod.jpg')}
+                                src={require('./../assets/Home/4.jpg')}
                                 alt="location.jpg" />
                         </div>
 
                         <div class="item">
                             <img
                                 className="HomeCarFirstImg"
-                                src={require('./../assets/Home/CogWheel.png')}
+                                src={require('./../assets/Home/5.jpg')}
                                 alt="location.jpg" />
                         </div>
                         <div class="item">
                             <img
                                 className="HomeCarFirstImg"
-                                src={require('./../assets/Home/chipsetglow.jpg')}
+                                src={require('./../assets/Home/6.jpg')}
                                 alt="location.jpg" />
                         </div>
                     </div>

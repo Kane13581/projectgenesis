@@ -18,14 +18,54 @@ import './App.css';
 function App() {
   return (
     <Router>
+    <div className="Padrino">
+      <div className="Loading">
+        <div className="HomeLoading1"></div>
+        <div className="HomeLoading2"></div>
+      </div>
+      {/* <div className= "Home">
+        <div className="HomeLoading">
+                <div className="HomeLoading1">
+                    <img
+                        className="HomeLoadingStyle1"
+                        src={require('./../src/assets/Home/Eye1.jpg')}
+                        alt="Eye1.jpg"/>
+                    
+                </div>
+                <div className="HomeLoading2">
+                    <img
+                        className="HomeLoadingStyle2"
+                        src={require('./../src/assets/Home/Eye2.jpg')}
+                        alt="Eye2.jpg"/>
+                </div>
+
+            </div> */}
+
       <div className="container-fluid">
+        
         <div className="row ">
+            {/* <div className="HomeLoading">
+                <div className="HomeLoading1">
+                    <img
+                        className="HomeLoadingStyle1"
+                        src={require('./../src/assets/Home/Eye1.jpg')}
+                        alt="Eye1.jpg" />
+                </div>
+                <div className="HomeLoading2">
+                    <img
+                        className="HomeLoadingStyle2"
+                        src={require('./../src/assets/Home/Eye2.jpg')}
+                        alt="Eye2.jpg" />
+                </div>
+
+            </div> */}
 
           <div className="col-sm-6 col-lg-6">
             <Link to="/" className="HomeButtonStyle" >
               <img className="ITElement1Img" src={require('./assets/Home/TriangleDot.png')} alt="location.jpg" />
             </Link>
           </div>
+      
 
           <div className="col-sm-2 col-lg-2">
             <Link to="/Apps" className="HobbiesButtonStyle">Apps</Link>
@@ -59,6 +99,7 @@ function App() {
             </Route>
           </Switch>
         </div>
+      </div>
       </div>
     </Router>
   );
